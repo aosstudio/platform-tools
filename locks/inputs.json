@@ -1,0 +1,469 @@
+{
+  "source": {
+    "build_make.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "build/make",
+      "sha256": "18d10a1faf6549c98a4bb65b5261d9a02f2b1645c40b68053031abfcbfb0a96f",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/build/+archive/5ce6f787337d0223710bf7d4a16dbe6d2a35f777.tar.gz"
+    },
+    "build_release.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "build/release",
+      "sha256": "c5be4c8b84da9f470c74fb2347f9db24d28203c1b483f6e1783f4f223effa078",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/build/release/+archive/c85f4aebe46714235599a9bd6430a0fe30c6e8d5.tar.gz"
+    },
+    "build_soong.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "build/soong",
+      "sha256": "12e57d524da386f321eee38a82caafbfc02731c581a275ce8504fc9b68a148fa",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/build/soong/+archive/6722dd8833db7482df1a2543ca3fcf67ddf0f7b1.tar.gz"
+    },
+    "dalvik_tools_hprof-conv.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "dalvik/tools/hprof-conv",
+      "sha256": "e931cb69b34d89010220ab8722cea00405699f4674a7861f14f79197684e5fa9",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/dalvik/+archive/5013071e756f89aa2cea97b437af12aacb8d4485/tools/hprof-conv.tar.gz"
+    },
+    "development_tools_etc1tool.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "development/tools/etc1tool",
+      "sha256": "bda6f787f334fda0dcfe149ddc68774b51dc8867116f7436c28c46f2925172a7",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/development/+archive/4dafd114fab3c3d9543a5aff0ad097f479915176/tools/etc1tool.tar.gz"
+    },
+    "external_abseil-cpp.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "external/abseil-cpp",
+      "sha256": "336139c8e33de4f6200bcd99ee726975d52234a7d119e3d4bca2df43943f240c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/abseil-cpp/+archive/474258796bcf112de75a1f89d022ba80b6d0b746.tar.gz"
+    },
+    "external_avb_libavb.tar.gz": {
+      "license": "MIT",
+      "path": "external/avb/libavb",
+      "sha256": "cf623b436d12327215c4e4cb418837a4f8702e13be841112faf465ac4ef78389",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/avb/+archive/ba2dec4b035b0a3b61c5f8f8a74d86bcd450b1ee/libavb.tar.gz"
+    },
+    "external_boringssl.tar.gz": {
+      "license": "ISC and BSD-style terms in LICENSE",
+      "path": "external/boringssl",
+      "sha256": "f3f05790a12ebcee158bd32be3564c691f76ebdd8a9b2c4b7bb331071c6b7b10",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/boringssl/+archive/0cd1f6a94b670e6b61af95a06e71e690ae8e3262.tar.gz"
+    },
+    "external_brotli.tar.gz": {
+      "license": "MIT",
+      "path": "external/brotli",
+      "sha256": "80da87cb33ab22d259c6090d714d2a7a0eb63907de129a991154fa20a0a521fd",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/brotli/+archive/a927860e79169483cd0ae4f8ad52937bd2c6d377.tar.gz"
+    },
+    "external_e2fsprogs.tar.gz": {
+      "license": "GPL-2.0-only AND LGPL-2.0-or-later AND BSD-3-Clause",
+      "path": "external/e2fsprogs",
+      "sha256": "7a7b7e8fd3c99bf2787f951747ba280ef73cf231baa20012537398bbd72f1649",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/e2fsprogs/+archive/3eb17241db7cd4408cc1bce9d25b602465ace8ff.tar.gz"
+    },
+    "external_f2fs-tools.tar.gz": {
+      "license": "GPL-2.0-only and LGPL-2.1 alternatives for selected files",
+      "path": "external/f2fs-tools",
+      "sha256": "967f35074446ef2408f99846453cd1ceafeb261eabe27134d03b2ed0a318164b",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/f2fs-tools/+archive/c64468cb6397fb63bded0f549438b472f7e7cf88.tar.gz"
+    },
+    "external_fmtlib.tar.gz": {
+      "license": "MIT",
+      "path": "external/fmtlib",
+      "sha256": "8a050aac375d7dc233d6035ad9e8a9c87a5b59cf7ea28315cf9d1353dab0e0fe",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/fmtlib/+archive/e3bef0ad2e9d4ea38ba3b4b2b59e0514f7025fed.tar.gz"
+    },
+    "external_googletest.tar.gz": {
+      "license": "BSD-3-Clause",
+      "path": "external/googletest",
+      "sha256": "1a4d185b0e7c8db735417eb072fdde491e7b2a9611e7162947d9ee27165732bc",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/googletest/+archive/9bcfc87429e9a9e02ccf2b8424b748f05c4842a5.tar.gz"
+    },
+    "external_libusb.tar.gz": {
+      "license": "LGPL-2.1-or-later",
+      "path": "external/libusb",
+      "sha256": "7e637a4ecbcb86ee101e746e0a43c9c9485dd43e5fe98cfef58f0450fe03d8b4",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/libusb/+archive/70460fc2b43c3948f9caae1fd4eacd2d666a872b.tar.gz"
+    },
+    "external_lz4_lib.tar.gz": {
+      "license": "BSD-2-Clause",
+      "path": "external/lz4/lib",
+      "sha256": "499194cb3795f698641412df60ea78d61276164a30f01326d46f77583b21176d",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/lz4/+archive/734e07032602e9a72fcc9701028b0aee45147fcd/lib.tar.gz"
+    },
+    "external_openscreen.tar.gz": {
+      "license": "BSD-3-Clause AND Apache-2.0",
+      "path": "external/openscreen",
+      "sha256": "9bfea900b311ccb2a7c4f979e7560d14b43b9a7b65e77bdf0e5881a22d9120e9",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/openscreen/+archive/3f982cf4871df8771c9d4abe6e9a6f8d829b2736.tar.gz"
+    },
+    "external_protobuf.tar.gz": {
+      "license": "BSD-3-Clause",
+      "path": "external/protobuf",
+      "sha256": "9da93308974f38e7ea58949e9be8e04d1604b84975878e76a723388329a802a5",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/protobuf/+archive/db06feae31e2a10ffc7ddaccd9e285ff7c13c0ab.tar.gz"
+    },
+    "external_sqlite.tar.gz": {
+      "license": "Public domain AND Apache-2.0",
+      "path": "external/sqlite",
+      "sha256": "532ea4085a144a23164d15bdfd8ce08cb0d375460a6234103824e936ec87c0e7",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/sqlite/+archive/7961228217942c86f2b0bd2ae4115d00e157fc0b.tar.gz"
+    },
+    "external_zstd.tar.gz": {
+      "license": "BSD-3-Clause",
+      "path": "external/zstd",
+      "sha256": "a8d72cd04053af8d22918ef17d7ae705f69169176b9e0d5231ceb5a005e933e3",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/external/zstd/+archive/3c0442c12d0f0b612a8869754a3fdf22bf16ef33.tar.gz"
+    },
+    "frameworks_base_cmds_idmap2_libidmap2_policies_include.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/cmds/idmap2/libidmap2_policies/include",
+      "sha256": "901606429b734df759312809e25383513fd32bf8fca4513c901b50d9cb34eaba",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/cmds/idmap2/libidmap2_policies/include.tar.gz"
+    },
+    "frameworks_base_core_api.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/core/api",
+      "sha256": "14d965a9c8c5559201f752eb3734e1175cc16103e63387a2aad412c093114135",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/api.tar.gz"
+    },
+    "frameworks_base_core_java_android_content_res.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/core/java/android/content/res",
+      "sha256": "de8e987ee5b1a23f40831b696f893f08b5070c5a32273a73cb750136c7ed25b8",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/core/java/android/content/res.tar.gz"
+    },
+    "frameworks_base_libs_androidfw.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/base/libs/androidfw",
+      "sha256": "6ae6e69a1b21897e8e74146069303a93c899cace17765f866a7b39e039d870e5",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/base/+archive/94b4c163b7dfe5ce3607f7bb8456f9573f7de57d/libs/androidfw.tar.gz"
+    },
+    "frameworks_native_include.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/native/include",
+      "sha256": "745c9e551f320c4893089b25d83b7210eb01b75b258fa61e180dbd412ecb390d",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/native/+archive/ae266dcb706d083868578cfedce381ef44488a07/include.tar.gz"
+    },
+    "frameworks_native_opengl_include_ETC1.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/native/opengl/include/ETC1",
+      "sha256": "877381ec35a363ccd112168c1a1d988bc6ccc10a0cf40e732510f36798dd0362",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/native/+archive/ae266dcb706d083868578cfedce381ef44488a07/opengl/include/ETC1.tar.gz"
+    },
+    "frameworks_native_opengl_libs_ETC1.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "frameworks/native/opengl/libs/ETC1",
+      "sha256": "db1e1514453078cb09c8f93d759cba6377ba30614b5c8932ef8d8fb618c14e6f",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/frameworks/native/+archive/ae266dcb706d083868578cfedce381ef44488a07/opengl/libs/ETC1.tar.gz"
+    },
+    "packages_modules_adb.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "packages/modules/adb",
+      "sha256": "64d26cc684e75dbb65ae96123801ac72a383b44282b6a67134b593615fc6999c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/packages/modules/adb/+archive/9084198a2d4b0f6a0f174260fb42da33485b684d.tar.gz"
+    },
+    "system_core.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/core",
+      "sha256": "fe72e54cad0932fb3792859f803a9bd9f8160cb754f9dadd0732e6da78b39572",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/core/+archive/545d2487e38192a2ce25040897ced877cf6b4f53.tar.gz"
+    },
+    "system_extras_ext4_utils.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/extras/ext4_utils",
+      "sha256": "43efccaecde2ad728e39e7682acdb5cec6b2e2cf64ee515dc8cf7c1c32fc3b16",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/extras/+archive/1289e9b3f282909eec6e80414e14dcc207bda439/ext4_utils.tar.gz"
+    },
+    "system_fs_fs_mgr_liblp.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/fs/fs_mgr/liblp",
+      "sha256": "b7cc4b189dac2406d4dea645014afa50c0f5cac45846ac8f54ec4866b507e995",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/fs/fs_mgr/+archive/157112fcbaa00b6e84c63146cfde249c56cd652c/liblp.tar.gz"
+    },
+    "system_fs_fs_mgr_libstorage_literals.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/fs/fs_mgr/libstorage_literals",
+      "sha256": "7bed9b25f8b6f95e6efe94572a6c5d859033c5e9700462d6fa6f51b21d90fdfa",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/fs/fs_mgr/+archive/157112fcbaa00b6e84c63146cfde249c56cd652c/libstorage_literals.tar.gz"
+    },
+    "system_incremental_delivery.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/incremental_delivery",
+      "sha256": "6d0e295ccba70773c51eadd5d063dcb6f9273404d293b0aba24b045ae97e49b8",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/incremental_delivery/+archive/6b853f9e5703a8c90648f82850a3a01d9763e619.tar.gz"
+    },
+    "system_libbase.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/libbase",
+      "sha256": "2a3adc1bf1de63e5a993def3d5eee1b980c116e9df328b21e80dfc9e3a285c4c",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/libbase/+archive/fef4173e19d97cd4b4fc09a06bccbf800d0d3937.tar.gz"
+    },
+    "system_libziparchive.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/libziparchive",
+      "sha256": "7a13131fa0aa0947f5e4d7578a9095b8b5eb1bcb36cf5d1d8e7185b951122249",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/libziparchive/+archive/bdd41f9c99400f241363b035eb64ad3d5f063c82.tar.gz"
+    },
+    "system_logging.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/logging",
+      "sha256": "df3fab1318bd203facc4c677389882da18f960235c4545902ef72c49c53df915",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/logging/+archive/d35ba620451b28512f46ebb5421f783fd77968d5.tar.gz"
+    },
+    "system_tools_mkbootimg_include.tar.gz": {
+      "license": "Apache-2.0",
+      "path": "system/tools/mkbootimg/include",
+      "sha256": "eea84ea88238acde7e85277bd5263b295e04822ff1493a8a326f546adc13776f",
+      "strip": 0,
+      "url": "https://android.googlesource.com/platform/system/tools/mkbootimg/+archive/4a27dd13adf9846e12d585d6fe99a375ebb58396/include.tar.gz"
+    }
+  },
+  "tool": {
+    "anyhow-1.0.102.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "7f202df86484c868dbad7eaa557ef785d5c66295e41b460ef922eca0723b842c",
+      "url": "https://static.crates.io/crates/anyhow/anyhow-1.0.102.crate"
+    },
+    "aosstudio-aosp-host-tools-bootstrap-17.0.0_r1-linux-x86_64.tar.gz": {
+      "license": "Upstream open-source licenses and notices in the AOSStudio release",
+      "sha256": "8abfdce2075b055707f14a1e41d70af10d14d4656936f1416ef70f8f4f3b3579",
+      "url": "https://github.com/aosstudio/aosp-host-tools/releases/download/latest/aosstudio-aosp-host-tools-bootstrap-17.0.0_r1-linux-x86_64.tar.gz"
+    },
+    "aosstudio-aosp-host-tools-generators-17.0.0_r1-linux-x86_64.tar.gz": {
+      "license": "Upstream open-source licenses and notices in the AOSStudio release",
+      "sha256": "61c40f5aedee8e3f6abb222ce89230624aca2dc25d15d0fb04d568c168c2a309",
+      "url": "https://github.com/aosstudio/aosp-host-tools/releases/download/latest/aosstudio-aosp-host-tools-generators-17.0.0_r1-linux-x86_64.tar.gz"
+    },
+    "aosstudio-aosp-host-tools-java-17.0.0_r1-linux-x86_64.tar.gz": {
+      "license": "Upstream open-source licenses and notices in the AOSStudio release",
+      "sha256": "9e446919fc1efdf347cf8052308cb11fea0781d8bcf5c7c94fbe84aa6ce2adf4",
+      "url": "https://github.com/aosstudio/aosp-host-tools/releases/download/latest/aosstudio-aosp-host-tools-java-17.0.0_r1-linux-x86_64.tar.gz"
+    },
+    "aosstudio-jdk-21.0.13.1-2-linux-x86_64.tar.gz": {
+      "license": "GPL-2.0-only WITH Classpath-exception-2.0",
+      "sha256": "38ea3237e496258a103aa482a7733a08bef94572473625d47a2f5a9854948840",
+      "url": "https://github.com/aosstudio/jdk/releases/download/latest/aosstudio-jdk-21.0.13.1-2-linux-x86_64.tar.gz"
+    },
+    "aosstudio-r8-9.5.29-agp.jar": {
+      "license": "BSD-3-Clause and bundled upstream notices",
+      "sha256": "03608b142ec38201c1f707ce99a65f80e0c529013d4b2381b6d5e393ceb69114",
+      "url": "https://github.com/aosstudio/r8/releases/download/latest/aosstudio-r8-9.5.29-agp.jar"
+    },
+    "autocfg-1.5.0.crate": {
+      "license": "Apache-2.0 OR MIT",
+      "sha256": "c08606f8c3cbf4ce6ec8e28fb0014a2c086708fe954eaa885384a6165172e7e8",
+      "url": "https://static.crates.io/crates/autocfg/autocfg-1.5.0.crate"
+    },
+    "bitflags-2.11.0.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "843867be96c8daad0d758b57df9392b6d8d271134fce549de6ce169ff98a92af",
+      "url": "https://static.crates.io/crates/bitflags/bitflags-2.11.0.crate"
+    },
+    "cargo-1.93.0-x86_64-unknown-linux-gnu.tar.xz": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "c23de3ae709ff33eed5e4ae59d1f9bcd75fa4dbaa9fb92f7b06bfb534b8db880",
+      "url": "https://static.rust-lang.org/dist/cargo-1.93.0-x86_64-unknown-linux-gnu.tar.xz"
+    },
+    "cfg-if-1.0.4.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "9330f8b2ff13f34540b44e946ef35111825727b38d33286ef986142615121801",
+      "url": "https://static.crates.io/crates/cfg-if/cfg-if-1.0.4.crate"
+    },
+    "cfg_aliases-0.2.1.crate": {
+      "license": "MIT",
+      "sha256": "613afe47fcd5fac7ccf1db93babcb082c5994d996f20b8b159f2ad1658eb5724",
+      "url": "https://static.crates.io/crates/cfg_aliases/cfg_aliases-0.2.1.crate"
+    },
+    "go1.25.4.linux-amd64.tar.gz": {
+      "license": "BSD-3-Clause",
+      "sha256": "9fa5ffeda4170de60f67f3aa0f824e426421ba724c21e133c1e35d6159ca1bec",
+      "url": "https://go.dev/dl/go1.25.4.linux-amd64.tar.gz"
+    },
+    "if-addrs-0.14.0.crate": {
+      "license": "MIT OR BSD-3-Clause",
+      "sha256": "bf39cc0423ee66021dc5eccface85580e4a001e0c5288bae8bea7ecb69225e90",
+      "url": "https://static.crates.io/crates/if-addrs/if-addrs-0.14.0.crate"
+    },
+    "libc-0.2.183.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "b5b646652bf6661599e1da8901b3b9522896f01e736bad5f723fe7a3a27f899d",
+      "url": "https://static.crates.io/crates/libc/libc-0.2.183.crate"
+    },
+    "log-0.4.29.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "5e5032e24019045c762d3c0f28f5b6b8bbf38563a65908389bf7978758920897",
+      "url": "https://static.crates.io/crates/log/log-0.4.29.crate"
+    },
+    "memoffset-0.9.1.crate": {
+      "license": "MIT",
+      "sha256": "488016bfae457b036d996092f6cb448677611ce4449e970ceaf42695203f218a",
+      "url": "https://static.crates.io/crates/memoffset/memoffset-0.9.1.crate"
+    },
+    "mio-1.1.1.crate": {
+      "license": "MIT",
+      "sha256": "a69bcab0ad47271a0234d9422b131806bf3968021e5dc9328caf2d4cd58557fc",
+      "url": "https://static.crates.io/crates/mio/mio-1.1.1.crate"
+    },
+    "nix-0.29.0.crate": {
+      "license": "MIT",
+      "sha256": "71e2746dc3a24dd78b3cfcb7be93368c6de9963d30f43a6a73998a9cf4b17b46",
+      "url": "https://static.crates.io/crates/nix/nix-0.29.0.crate"
+    },
+    "proc-macro2-1.0.106.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "8fd00f0bb2e90d81d1044c2b32617f68fcb9fa3bb7640c23e9c748e53fb30934",
+      "url": "https://static.crates.io/crates/proc-macro2/proc-macro2-1.0.106.crate"
+    },
+    "protoc-4.33.5-linux-x86_64.exe": {
+      "license": "BSD-3-Clause",
+      "sha256": "e8d496f7dacade5bf42a11f4fbeb61e9bdfddd494fd292f5f1881ddc169e69cf",
+      "url": "https://repo.maven.apache.org/maven2/com/google/protobuf/protoc/4.33.5/protoc-4.33.5-linux-x86_64.exe"
+    },
+    "quote-1.0.45.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "41f2619966050689382d2b44f664f4bc593e129785a36d6ee376ddf37259b924",
+      "url": "https://static.crates.io/crates/quote/quote-1.0.45.crate"
+    },
+    "rust-std-1.93.0-x86_64-unknown-linux-gnu.tar.xz": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "a849a418d0f27e69573e41763c395e924a0b98c16fcdc55599c1c79c27c1c777",
+      "url": "https://static.rust-lang.org/dist/rust-std-1.93.0-x86_64-unknown-linux-gnu.tar.xz"
+    },
+    "rustc-1.93.0-x86_64-unknown-linux-gnu.tar.xz": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "00c6e6740ea6a795e33568cd7514855d58408a1180cd820284a7bbf7c46af715",
+      "url": "https://static.rust-lang.org/dist/rustc-1.93.0-x86_64-unknown-linux-gnu.tar.xz"
+    },
+    "simple-dns-0.11.2.crate": {
+      "license": "MIT",
+      "sha256": "df350943049174c4ae8ced56c604e28270258faec12a6a48637a7655287c9ce0",
+      "url": "https://static.crates.io/crates/simple-dns/simple-dns-0.11.2.crate"
+    },
+    "socket2-0.6.3.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "3a766e1110788c36f4fa1c2b71b387a7815aa65f88ce0229841826633d93723e",
+      "url": "https://static.crates.io/crates/socket2/socket2-0.6.3.crate"
+    },
+    "syn-2.0.117.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "e665b8803e7b1d2a727f4023456bbbbe74da67099c585258af0ad9c5013b9b99",
+      "url": "https://static.crates.io/crates/syn/syn-2.0.117.crate"
+    },
+    "unicode-ident-1.0.24.crate": {
+      "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+      "sha256": "e6e4313cd5fcd3dad5cafa179702e2b244f760991f45397d14d4ebf38247da75",
+      "url": "https://static.crates.io/crates/unicode-ident/unicode-ident-1.0.24.crate"
+    },
+    "wasi-0.11.1+wasi-snapshot-preview1.crate": {
+      "license": "Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT",
+      "sha256": "ccf3ec651a847eb01de73ccad15eb7d99f80485de043efb2f370cd654f4ea44b",
+      "url": "https://static.crates.io/crates/wasi/wasi-0.11.1+wasi-snapshot-preview1.crate"
+    },
+    "windows-link-0.2.1.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "f0805222e57f7521d6a62e36fa9163bc891acd422f971defe97d64e70d0a4fe5",
+      "url": "https://static.crates.io/crates/windows-link/windows-link-0.2.1.crate"
+    },
+    "windows-sys-0.59.0.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "1e38bc4d79ed67fd075bcc251a1c39b32a1776bbe92e5bef1f0bf1f8c531853b",
+      "url": "https://static.crates.io/crates/windows-sys/windows-sys-0.59.0.crate"
+    },
+    "windows-sys-0.61.2.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "ae137229bcbd6cdf0f7b80a31df61766145077ddf49416a728b02cb3921ff3fc",
+      "url": "https://static.crates.io/crates/windows-sys/windows-sys-0.61.2.crate"
+    },
+    "windows-targets-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "9b724f72796e036ab90c1021d4780d4d3d648aca59e491e6b98e725b84e99973",
+      "url": "https://static.crates.io/crates/windows-targets/windows-targets-0.52.6.crate"
+    },
+    "windows_aarch64_gnullvm-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "32a4622180e7a0ec044bb555404c800bc9fd9ec262ec147edd5989ccd0c02cd3",
+      "url": "https://static.crates.io/crates/windows_aarch64_gnullvm/windows_aarch64_gnullvm-0.52.6.crate"
+    },
+    "windows_aarch64_msvc-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "09ec2a7bb152e2252b53fa7803150007879548bc709c039df7627cabbd05d469",
+      "url": "https://static.crates.io/crates/windows_aarch64_msvc/windows_aarch64_msvc-0.52.6.crate"
+    },
+    "windows_i686_gnu-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "8e9b5ad5ab802e97eb8e295ac6720e509ee4c243f69d781394014ebfe8bbfa0b",
+      "url": "https://static.crates.io/crates/windows_i686_gnu/windows_i686_gnu-0.52.6.crate"
+    },
+    "windows_i686_gnullvm-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "0eee52d38c090b3caa76c563b86c3a4bd71ef1a819287c19d586d7334ae8ed66",
+      "url": "https://static.crates.io/crates/windows_i686_gnullvm/windows_i686_gnullvm-0.52.6.crate"
+    },
+    "windows_i686_msvc-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "240948bc05c5e7c6dabba28bf89d89ffce3e303022809e73deaefe4f6ec56c66",
+      "url": "https://static.crates.io/crates/windows_i686_msvc/windows_i686_msvc-0.52.6.crate"
+    },
+    "windows_x86_64_gnu-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "147a5c80aabfbf0c7d901cb5895d1de30ef2907eb21fbbab29ca94c5b08b1a78",
+      "url": "https://static.crates.io/crates/windows_x86_64_gnu/windows_x86_64_gnu-0.52.6.crate"
+    },
+    "windows_x86_64_gnullvm-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "24d5b23dc417412679681396f2b49f3de8c1473deb516bd34410872eff51ed0d",
+      "url": "https://static.crates.io/crates/windows_x86_64_gnullvm/windows_x86_64_gnullvm-0.52.6.crate"
+    },
+    "windows_x86_64_msvc-0.52.6.crate": {
+      "license": "MIT OR Apache-2.0",
+      "sha256": "589f6da84c646204747d1270a2a5661ea66ed1cced2631d546fdfb155959f9ec",
+      "url": "https://static.crates.io/crates/windows_x86_64_msvc/windows_x86_64_msvc-0.52.6.crate"
+    },
+    "zerocopy-0.8.39.crate": {
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "sha256": "db6d35d663eadb6c932438e763b262fe1a70987f9ae936e60158176d710cae4a",
+      "url": "https://static.crates.io/crates/zerocopy/zerocopy-0.8.39.crate"
+    },
+    "zerocopy-derive-0.8.39.crate": {
+      "license": "BSD-2-Clause OR Apache-2.0 OR MIT",
+      "sha256": "4122cd3169e94605190e77839c9a40d40ed048d305bfdc146e7df40ab0f3e517",
+      "url": "https://static.crates.io/crates/zerocopy-derive/zerocopy-derive-0.8.39.crate"
+    }
+  },
+  "version": "37.0.0"
+}
